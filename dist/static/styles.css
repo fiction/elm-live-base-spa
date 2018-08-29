@@ -1,0 +1,179 @@
+body {
+  /* font-family: 'Roboto Mono', monospace; */
+  background-color: #f5f7f9;
+}
+
+/* Color classes */
+
+.bg-gray {
+  background-color: #525657;
+}
+
+.slate {
+  color: #A6B0B3;
+}
+
+.bg-charcoal {
+  background-color: #74767b;
+}
+
+.charcoal {
+  color: #74767b;
+}
+
+.bg-steel {
+  background-color: #79828b;
+}
+
+.steel {
+  color: #79828b;
+}
+
+.bg-slate {
+  background-color: #A6B0B3;
+}
+
+.light-gray {
+  color: #f5f7f9;
+}
+
+.bg-light-gray {
+  background-color: #f5f7f9;
+}
+
+.med-gray {
+  color: #a7a7a7;
+}
+
+.bg-med-gray {
+  background-color: #a7a7a7;
+}
+
+.red {
+  color: #fc4349;
+}
+
+.bg-red {
+  background-color: #fc4349;
+}
+
+.yellow {
+  color: #fecb57;
+}
+
+.bg-yellow {
+  background-color: #fecb57;
+}
+
+.green {
+  color: #6fd57a;
+}
+
+.bg-green {
+  background-color: #6fd57a;
+}
+
+.orange {
+  color: #ff7c36;
+}
+
+.bg-orange {
+  background-color: #ff7c36;
+}
+
+.blue {
+  color: #26b1e6;
+}
+
+.bg-blue {
+  background-color: #26b1e6;
+}
+
+.purple {
+  color: #7262ff;
+}
+
+.bg-purple {
+  background-color: #7262ff;
+}
+
+.dark-purple {
+  color: #6c41bd;
+}
+
+.bg-dark-purple {
+  background-color: #6c41bd;
+}
+
+
+/* Color modifiers */
+
+.opacity-03 {
+  opacity: 0.3;
+}
+
+.opacity-05 {
+  opacity: 0.5;
+}
+
+/* Type classes */
+
+
+.regular {
+  font-weight: regular;
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* Layout classes */
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+/* Interaction classes */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.cursor-text {
+  cursor: text;
+}
+/*
+.cursor-pointer:hover {
+  opacity: 0.8;
+} */
+
+/* Form classes */
+
+.input {
+  border: 1px solid #d3dce4;
+}
+
+.input-reset {
+  border: none;
+  margin: 0;
+}
+
+.form-container {
+  border: 1px solid #d3dce4;
+  padding: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
