@@ -19,8 +19,8 @@ Clone into new folder
 
 ### Build Project
 Note: this process is taken directly from (The Elm Guide)[https://guide.elm-lang.org/optimization/asset_size.html]
-1. Run `elm make src/Main.elm --optimize --output=dist/elm.js` to build Elm files into `/dist/elm.js`
-1. Run `uglifyjs /dist/elm.js --compress 'pure_funcs="F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5,A6,A7,A8,A9",pure_getters,keep_fargs=false,unsafe_comps,unsafe' | uglifyjs --mangle --output=elm.min.js` to minify the `elm.js` file
+1. Run `elm make src/Main.elm --optimize --output=elm.js` to build Elm files into `dist/elm.js`
+1. Run `uglifyjs dist/elm.js --compress 'pure_funcs="F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5,A6,A7,A8,A9",pure_getters,keep_fargs=false,unsafe_comps,unsafe' | uglifyjs --mangle --output=dist/elm.min.js` to minify the `elm.js` file
 
 ### Todo
 - Replace index.html in root folder once the fix is out for auto reloading
