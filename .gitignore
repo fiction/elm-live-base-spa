@@ -1,6 +1,7 @@
 /node_modules
 /elm-stuff
 elm.js
+/dist/elm.js
 /dist/elm.min.js
 /src/Util/Config.elm
 npm-debug.log
