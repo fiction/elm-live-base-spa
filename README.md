@@ -2,8 +2,6 @@
 Clone into new folder 
 `git clone git@github.com:fiction/elm-webpack-starter.git my-elm-project`
 
-`yarn install` to get dependencies
-
 ### Re-initialize the project folder as your own repo:
   ```
   rm -rf .git
